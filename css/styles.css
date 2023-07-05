@@ -1,0 +1,199 @@
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.navtop{
+    padding: 8px 16px 8px 32px;
+    background-color: #fbdc00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.icon{
+    margin-left: auto;
+}
+
+.nav-middle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logdiv{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.log-su{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 8px 0px 8px 0px;
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.log-su_li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log{
+    margin-right: 16px;
+}
+
+.mid-ele{
+    margin-left: 20px;
+}
+
+.cu{
+    margin-left: 40px;
+}
+
+.navtxt{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.btnsu{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-family: "PT Sans";
+    min-width: 72px;
+    /* font-size: 18px; */
+    font-weight: 700;
+    font-size: 14px;
+    padding: 4px 16px;
+    background-color: #EE3425;
+    border: solid #EE3425 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ }
+
+.title-bg{
+    /* background-color: #fbdc00; */
+    position: relative;
+    width: 100%;
+    /* padding-top: 57px;
+    margin-top: -57px; */
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    background-color: var(--color-secondary);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+ .title{
+    padding: 16px;
+    /* background-color: #fbdc00; */
+    /* background: transparent; */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header-title{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.header-title h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.talktous{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #000;
+}
+
+.tffholder{
+    display: flex;
+    margin-top: 3px;
+}
+
+.tff{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding-right: 7px;
+}
+
+.dropdown-menu{
+    max-height: 200px;
+    width: 50px !important;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+.number{
+    padding-right: 30px;
+}
+
+.tffwn{
+    border: none;
+}
+
+.tffbtn{
+    width: 90px;
+    padding: 2px 4px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #36bb22;
+    border: 1px solid #36bb22;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: 700;
+}
+
+.image-title{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.img_dsktp{
+    width: 595px;
+    height: 400px;
+    margin-bottom: -39px;
+}
