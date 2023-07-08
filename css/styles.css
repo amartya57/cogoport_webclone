@@ -105,7 +105,6 @@ textarea:focus, input:focus{
     background-color: var(--color-secondary);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100%;
 }
 
  .title{
@@ -113,6 +112,7 @@ textarea:focus, input:focus{
     /* background-color: #fbdc00; */
     /* background: transparent; */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
